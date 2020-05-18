@@ -14,6 +14,9 @@
   ## Usage
   After a user runs node index inside the command line the user will be asked a couple of questions in regard to the project. After answering all questions a README file gets created with the user's input. Below is an image showing a sample README file.
   ![](readme-generator.png)
+  ## Video
+  Below is a link to a walkthrough video demonstrating the functionality of the README generator.
+  * [Video](https://drive.google.com/file/d/1UTdJNw8Y4iu45aQKX1i9UlEfiv4AqKiI/view)
   ## License
   Licensed under MIT.
   ## Credits
