@@ -25,7 +25,7 @@ const questions = [
         message: 'Any usage instructions?'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What are you licenses for this project?',
         choices: ['Apache 2.0', 'IBM', 'Mozilla Public 2.0', 'MIT']
@@ -53,8 +53,21 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+function writeToFile(data) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', data, err => {
+            if (err) {
+            reject(err);
+            return;
+            }
+    
+            resolve({
+            ok: true,
+            message: 'README File created!'
+            });
+        });
+    });
+};
 
 // function to initialize program
 function init() {
@@ -62,4 +75,10 @@ function init() {
 }
 
 // function call to initialize program
-init();
+init()
+    .then(userInput => {
+        return generatePage(userInput);
+    })
+    .then(markdownFile => {
+        return writeToFile(markdownFile);
+    })
