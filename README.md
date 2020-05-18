@@ -18,7 +18,7 @@
   Licensed under MIT.
   ## Credits
   * W3Schools www.w3schools.com/  
-  * Stack OverFlow stackoverflow.com/
+  * Stack OverFlow www.stackoverflow.com/
   ## Tests
   None at this time.
   ## Questions
