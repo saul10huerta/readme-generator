@@ -18,7 +18,7 @@
   Licensed under MIT.
   ## Credits
   * W3Schools www.w3schools.com/  
-  * Stack OverFlow stackoverflow.com/
+  * Stack OverFlow www.stackoverflow.com/
   ## Tests
   None at this time.
   ## Questions
@@ -26,4 +26,3 @@
   * [GitHub](github.com/saul10huerta)
   * [Email](saul10huerta@utexas.edu)
   * [LinkedIn](https://www.linkedin.com/in/saul10huerta/)
-  
