@@ -1,14 +1,27 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A program created using Nodejs to create a README file based on console dependent user inpput",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Saul Huerta",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saul10huerta/readme-generator.git"
+  },
+  "keywords": [
+    "Node",
+    "README",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/saul10huerta/readme-generator/issues"
+  },
+  "homepage": "https://github.com/saul10huerta/readme-generator#readme"
 }
